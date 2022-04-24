@@ -57,9 +57,9 @@ trace:
 # The registry settings are used to discover and load agents
 ```
 #### 2.4 Registering Forta node
-We replenish our address in the Polygon network by 1 MATIC and check the balance:
+We shoud fund our address in the Polygon network by 1 MATIC and check the balance:
 https://polygonscan.com/address/0x4751ca9aa2EaA551d26d1993A14BbE05a5404049  
-
+#### !!! Note thet we should fund our Node scan address, but place in the command bellow our MM address (owner)
 ```
 # forta register --owner-address 0x1418559Ea8b2d5A29Ce34A8c512c764F80A68D4A --passphrase "your password"
 Sending a transaction to register your scan node to chain 1...
