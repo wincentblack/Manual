@@ -82,19 +82,8 @@ Run the systemd service to start Forta
 # systemctl start forta
 ```
 ### 2.6 Check status:
- ```
- # forta status
-
-root@vmi621203:~# forta status
-forta.container.forta-json-rpc.summary
-⬤ ok
-
-forta.container.forta-supervisor.summary
-⬤ ok: all 3 service containers are running. telemetry sync is failing with error 'telemetry handler responded with '403': {"code":403,"message":"scanner is not authorized"}
-' (non-critical).
-
-forta.container.forta-updater.summary
-⬤ ok
-
-root@vmi621203:~#
 ```
+ # forta status
+```
+![image](https://user-images.githubusercontent.com/7540778/164965620-e7640965-9c12-4606-9570-3eeec49606d2.png)
+
