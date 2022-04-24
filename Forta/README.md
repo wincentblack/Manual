@@ -77,7 +77,7 @@ Environment="FORTA_DIR=<your_forta_config_dir>"
 Environment="FORTA_PASSPHRASE=<your_forta_passphrase>"
 
 Run the systemd service to start Forta
-
+# systemctl daemon-reload
 # systemctl enable forta
 # systemctl start forta
 ```
