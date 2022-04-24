@@ -26,7 +26,7 @@ https://ethereum.org/ru/developers/tutorials/run-light-node-geth/
 ```
 ### 2.2
 ```
-# forta init --passphrase Blackwincen13
+# forta init --passphrase "your password"
 Scanner address: 0x4751ca9aa2EaA551d26d1993A14BbE05a5404049
 
 Successfully initialized at /root/.forta
