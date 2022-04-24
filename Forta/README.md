@@ -88,7 +88,7 @@ Run the systemd service to start Forta
 ![image](https://user-images.githubusercontent.com/7540778/164965620-e7640965-9c12-4606-9570-3eeec49606d2.png)
 
 
-### 3. Checking a logs
+### 3. Checking logs
 ```
 # journalctl -u forta -n20 --output cat
 ```
