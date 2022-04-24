@@ -1,8 +1,8 @@
 # Forta setup guade
-### Форма для ноды:
+### Form for request to be a node validatro (it`s closed on this moment):
 ```https://docs.google.com/forms/d/e/1FAIpQLSfO1D7NLUcv-FsYKMcUlVwTUXAdmFraXqnXsmUA_qkSR2d79A/viewform?pli=1```
 
-### Installation tutorial: Решил попробовать запустить на Light clietn of Etherium (not full node)
+### Installation tutorial: I decided start it ont lilght client for Ethereum network (not full node)
 
 
 1. Install the light client for Ethereum network, I used this one:
