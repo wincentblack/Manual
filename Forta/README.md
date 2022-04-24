@@ -95,7 +95,7 @@ Run the systemd service to start Forta
 #### We should see somthing like this:
 ![image](https://user-images.githubusercontent.com/7540778/164965771-041e8e70-d252-475c-b3f4-7c3389faf0ac.png)
 
-#### check that all docker containres were started and are started:
+check that all docker containres were started:
 ```
 # docker ps
 ```
