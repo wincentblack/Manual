@@ -11,7 +11,7 @@ https://geth.ethereum.org/docs/install-and-build/installing-geth#run-inside-dock
 # docker pull ethereum/client-go
 # mkdir /root/.ethereum
 # screen -S Etherium_noda
-# docker run -it -p 30303:30303 -p 8545:8545 -p 8546:8546 -p 30304:30304 -v /root/.ethereum/:/root/.ethereum/ ethereum/client-go --syncmode light --http --http.addr 0.0.0.0 --http.port 8545
+# docker run -it -p 30303:30303 -p 8545:8545 -p 8546:8546 -p 30304:30304 -v /root/.ethereum/:/root/.ethereum/ ethereum/client-go --syncmode light --http --http.addr 0.0.0.0 --http.port 8545 --http.api personal,eth,net,web3 --ws.api eth,net,web3 --http.corsdomain --http.vhosts 
 ```
 https://www.freecodecamp.org/news/how-to-run-geth-from-a-docker-container-b6d30620ca74/ 
 https://ethereum.org/ru/developers/tutorials/run-light-node-geth/
