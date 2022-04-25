@@ -113,7 +113,7 @@ Run the systemd service to start Forta
 # journalctl -u forta -n20 --output cat
 ```
 #### We should see somthing like this:
-![image](https://user-images.githubusercontent.com/7540778/164965771-041e8e70-d252-475c-b3f4-7c3389faf0ac.png)
+![image](https://user-images.githubusercontent.com/7540778/165150548-0289ce3e-3523-43dc-b893-a92085df5e19.png)
 
 check that all docker containres were started:
 ```
