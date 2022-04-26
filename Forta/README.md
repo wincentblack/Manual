@@ -1,4 +1,5 @@
 ## Forta setup guide
+### Official guide: ```https://docs.forta.network/en/latest/api-example-use-cases/```
 ### Form for request to be a node validatro (it`s closed on this moment):
 ```https://docs.google.com/forms/d/e/1FAIpQLSfO1D7NLUcv-FsYKMcUlVwTUXAdmFraXqnXsmUA_qkSR2d79A/viewform?pli=1```
 
