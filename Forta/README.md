@@ -1,6 +1,7 @@
 ## Forta setup guide
 Official guide: 
 https://docs.forta.network/en/latest/api-example-use-cases/ 
+
 https://forta.notion.site/Node-Operator-Onboarding-Process-6dfdfb0c717a429ebeb37e23e5532e3f 
 ### Form for request to be a node validatro (it`s closed on this moment):
 ```https://docs.google.com/forms/d/e/1FAIpQLSfO1D7NLUcv-FsYKMcUlVwTUXAdmFraXqnXsmUA_qkSR2d79A/viewform?pli=1```
