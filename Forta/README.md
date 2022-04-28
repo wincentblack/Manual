@@ -60,6 +60,22 @@ trace:
     url: https://eth-mainnet.alchemyapi.io/v2/z5Jwxxxxxxxxxxxxxxxxxxxx7Zp
 
 ```
+Also, to avoid high trafics from bots we need use a RPC Proxy, I use this one:
+https://moralis.io/ - we nned register there and then navigate to Speedy Nodes, press ou our network (Ethereum in my case) copy mainet link, somthing like this:
+![image](https://user-images.githubusercontent.com/7540778/165710588-5f90f2c0-171f-49f0-bab1-f3bdce09e470.png)
+open our forta config and put it there:
+```
+# The jsonRpcProxy settings are used make query requests (defaults to scan url)
+jsonRpcProxy:
+  jsonRpc:
+    url: https://speedy-nodes-nyc.moralis.io/xxxxxxxxxxxxxx/eth/mainnet
+
+```
+save changes and restart service:
+```
+# systemctl stop forta $$ sleep 20 && systemctl start forta
+```
+Be sure that it goes well, check ```forta status``` and logs
 
 For local node (geth) - I did not use it here
 ```
