@@ -151,9 +151,9 @@ How to chekck node`s avg:
 ![image](https://user-images.githubusercontent.com/7540778/166000947-875ab9eb-6cc1-42a1-bf6b-752f9726e4bd.png)
 
 Gradation:
-100% rewards, if SLA more then >0.9
-80% rewards, if SLA more then >0.75-0,89
-No rewards, if SLA less then 0.75
+100% rewards, if SLA more then >0.9;
+80% rewards, if SLA more then >0.75-0,89;
+No rewards, if SLA less then 0.75;
 
 #### check your node in the explorer lists here:
 https://explorer.forta.network/network 
