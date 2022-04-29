@@ -141,5 +141,21 @@ check that all docker containres were started:
 ```
 ![image](https://user-images.githubusercontent.com/7540778/164965835-60aaafb8-76b9-424c-b650-84c385ca4fe0.png)
 
+How to check count of connected agents:
+```# docker ps |grep docker-entrypoint |wc -l```
+
+How to chekck node`s avg:
+```
+# curl https://api.forta.network/stats/sla/scanner/your node address?startTime=2022-04-24T00:00:00Z |jq |grep avg
+```
+![image](https://user-images.githubusercontent.com/7540778/166000947-875ab9eb-6cc1-42a1-bf6b-752f9726e4bd.png)
+
+Gradation:
+100% rewards, if SLA more then >0.9
+80% rewards, if SLA more then >0.75-0,89
+No rewards, if SLA less then 0.75
+
 #### check your node in the explorer lists here:
 https://explorer.forta.network/network 
+
+
